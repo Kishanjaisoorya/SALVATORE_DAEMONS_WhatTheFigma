@@ -1,0 +1,350 @@
+/* styles.css */
+
+/* Style for the navbar */
+
+
+.container{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.navbar {
+    background-color: #3498db; /* Change the background color of the navbar */
+}
+
+.navbar-brand {
+    color: #fff; /* Change the color of the navbar brand */
+}
+
+.navbar-nav .nav-link {
+    color: #fff; /* Change the color of the navbar links */
+}
+
+/* Style for the jumbotron */
+.jumbotron {
+    background-image: url('./main.jpg'); /* Add the background image */
+    background-size: cover; /* Ensure the background image covers the entire jumbotron */
+    background-position: center; /* Center the background image within the jumbotron */
+    color: #fff; /* Change the text color of the jumbotron */
+    height:100vh;
+}
+
+.city-options {
+    position: absolute; /* Position the city options absolutely within the jumbotron */
+    bottom: 20px; /* Adjust the distance from the bottom */
+    left: 20px; /* Adjust the distance from the left */
+    list-style: none; /* Remove default list styles */
+}
+
+.city-options ul li {
+    margin-bottom: 10px; /* Add some space between each city option */
+}
+.aboutus{
+    width:80%;
+}
+.card{
+    height:400px;
+    margin-bottom: auto;
+    border-radius: 20px; /* Adjust the border radius as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.box-img{
+    border-radius: 20px;
+    margin: 10px;
+    width: 95%;
+}
+.star-rating {
+    text-align: right;
+    margin-top: -5px;
+}
+
+.star {
+    color: orangered;
+    font-size: 25px;
+    margin-left: 1px;
+}
+.overlap-button {
+    position: relative;
+    top: 5px; /* Adjust this value as needed */
+    border-radius: 40px;
+}
+.icon-details .icon-detail {
+    text-align: center; /* Center-align the content */
+}
+
+.icon-details .icon-detail i {
+    font-size: 14px; /* Adjust the font size of the icons */
+    margin-right: 0px; /* Adjust the spacing between the icon and text */
+    margin-left:7px;
+}
+
+.icon-details .icon-detail span {
+    font-size: 12px; /* Adjust the font size of the text */
+}
+
+
+
+.custom-btn-width {
+    width: 70%; /* Adjust the width as per your requirement */
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:orangered;
+}
+
+.show {
+    padding: 50px;
+    text-align: center;
+    background-color: antiquewhite;
+    width:100%;
+    height:400px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff6600;
+    margin-bottom: 20px;
+}
+.icon {
+    font-size: 36px;
+    color: #28a745;
+}
+
+.subtext {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Style for the footer */
+.footer {
+    background-color: #34495e; /* Change the background color of the footer */
+    color: #fff; /* Change the text color of the footer */
+}
+.overlapping-container {
+    position: relative;
+    top: -45px; /* Adjust this value to change the amount of overlap */
+    z-index: 1000; /* Ensures the container stays on top */
+    background-color: white; /* Or any color you prefer */
+    padding: 20px;
+    border:black;
+    border-radius: 5px;
+    width:80%;
+    margin-left:10%;
+}
+.comment {
+    width:30%;
+    margin: 10px;
+    border: none;
+    display: inline-block;
+    margin-right: 20px; /* Adjust spacing between comments */
+    vertical-align: top; /* Align comments at the top */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left:10px;
+}
+
+.comment-body {
+    position: relative;
+}
+.blockquoter{
+    font-size: 20px;
+}
+
+.blockquote-footer {
+    font-size: 15px;
+}
+
+.rounded-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+}
+.outer-div{
+    display: flex;
+    max-height: 400px;
+    max-width: 824px;
+    flex-direction: row;;
+    overflow-x: auto;
+    gap:30px;
+    padding:20px;
+    margin: 0;;
+   
+  
+   
+}
+
+.outer-div::-webkit-scrollbar{
+    width:0px;
+}
+.item{
+     min-width:350px;
+    min-height: 200px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    animation: slide 16s infinite;
+
+   
+
+}
+
+
+.student-review{
+    padding: 18px;
+    color: #ACACAC;
+    font-family:"Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+.student-info{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    align-items: center;
+    justify-content: start;
+    padding-left: 20px;
+    margin-top: -20px;
+
+
+}
+.profile-pic{
+    width:47px;
+    height: 47px;;
+    border-radius: 50%;
+}
+.profession{
+    width:120px;
+    display: flex;
+    flex-direction: column;
+    font-family:"Roboto", sans-serif;
+    font-size: 16px;
+   
+}
+#name{
+    font-weight: 700;
+
+}
+#role{
+    margin-top: -10px;
+    font-family:"Roboto", sans-serif;
+    font-size: 16px;
+    color: #ACACAC;
+}
+
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
+.commen{
+    padding: 50px;
+    max-width: 924px;
+    width:100%;
+    box-sizing: border-box;
+    background-color: (255, 255, 204,0.3);
+    transform: translate(20%,20%);
+    margin-top:10%;
+    overflow: hidden;
+    margin-left:5%;
+}
+email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Style the container */
+.subscription-container {
+    background-color: purple;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+/* Style the input field */
+.email-input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Style the subscribe button */
+.subscribe-button {
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Footer columns */
+.footer-columns {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-column {
+    flex: 1;
+    padding: 10px;
+}
+
+/* Links */
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Contact info */
+.contact-info {
+    font-size: 14px;
+}
+
